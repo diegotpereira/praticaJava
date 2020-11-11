@@ -34,7 +34,7 @@ public class Votacao {
 	    totalVotos = 0;
 	    
 	    do {
-			System.out.print("Digite seu voto: ");
+			System.out.print("Digite o número do seu candidato: ");
 			votacao = teclado.nextInt();
 			
 			switch (votacao) {
